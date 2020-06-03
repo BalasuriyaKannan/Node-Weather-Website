@@ -8,6 +8,7 @@ console.log(__dirname)
 console.log(path.join(__dirname,'../public'))
 const app = express()
 
+
 const publiDirectoryPath = path.join(__dirname,'../public')
 const viewsDirectoryPath = path.join(__dirname,'../templates/views')
 const partialDirectoryPath = path.join(__dirname,'../templates/partials')
